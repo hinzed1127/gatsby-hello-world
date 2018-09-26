@@ -2,6 +2,6 @@ import React from "react";
 
 export default () => (
     <div>
-        This shit don't exist yet
+        This pages doesn't exist yet
     </div>
 )

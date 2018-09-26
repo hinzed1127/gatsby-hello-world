@@ -12,6 +12,13 @@ export default () => (
         <div>
             <Link to="/dogs/">Dogs</Link>
         </div>
+        <div>
+            <Link to="/typography/">Here's what typography.js does</Link>
+        </div>
+        <div>
+            <Link to="/about-css-modules/">Here's what CSS Modules do</Link>
+        </div>
+
         <div style={{color: 'purple', fontSize: '72px'}}>Hello MPLS!</div>
         <div style={{ color: 'blue', fontSize: '36px' }}>(Also, Hello world.)</div>
         <img src="https://source.unsplash.com/random/800x400" alt="something random" />
