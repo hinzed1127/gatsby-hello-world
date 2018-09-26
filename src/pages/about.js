@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "gatsby";
+import Layout from "../components/layout";
 
 export default () => (
-  <div>
+  <Layout>
     <h1>Yo</h1>
     <p>My name's Dan</p>
     <Link to="/">Home</Link>
@@ -11,5 +12,5 @@ export default () => (
         Check out dis band
       </a>
     </div>
-  </div>
+  </Layout>
 );

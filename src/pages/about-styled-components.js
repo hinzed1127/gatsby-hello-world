@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { Link } from "gatsby";
+import Layout from "../components/layout";
 
 const Container = styled.div`
   margin: 3rem auto;
@@ -53,8 +53,7 @@ const User = props => (
 )
 
 export default () => (
-  <>
-    <Link to="/">Go home</Link>
+  <Layout>
     <Container>
         <h1>About Styled Components</h1>
         <p>Styled Components is cool</p>
@@ -69,5 +68,5 @@ export default () => (
             excerpt="I'm Bob smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
         />
     </Container>
-  </>
+  </Layout>
 )
